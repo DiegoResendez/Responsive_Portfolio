@@ -24,60 +24,34 @@
 <body>
 <!-- this should be a contact page -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+  <div class="container">
+    <div class="col-md-4 col-sm-12">
+      <a class="navbar-brand text-white w-100 bg-info p-3 text-center" href="#">
+        <h1> Diego Resendez </h1>
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button> -->
+  </div>
+   <div class="col-md col-sm-12"></div>
+    <div class="col-md-5 col-sm-12" id="navbarSupportedContent">
+      <ul class="nav p-1 col-sm-12 text-center">
+        <li class="nav-item ">
+          <a class="nav-link active" href="#">About</a>
         </li>
+        <li class="nav-item">|</li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="file:///C:/Users/diego/dev/uwbc/Responsive_Portfolio/portfolio.html">Portfolio</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
+        <li class="nav-item">|</li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="file:///C:/Users/diego/dev/uwbc/Responsive_Portfolio/contact.html">Contact</a>
         </li>
       </ul>
-      <!-- <form class="form-inline my-2 my-lg-0"> -->
-        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-      <!-- </form> -->
     </div>
-  </nav>
-
-    <!-- Right-aligned with .justify-content-end: -->
-
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="file:///C:/Users/diego/dev/uwbc/Responsive_Portfolio/index.html#">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="file:///C:/Users/diego/dev/uwbc/Responsive_Portfolio/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <!-- <li class="nav-item"> -->
-        <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
-        <!-- </li> -->
-      </ul>
-
-
+  </div>
+</nav>
 
     <!-- https://getbootstrap.com/docs/4.1/components/forms/ -->
     <!-- Textual form controls—like <input>s, <select>s, and <textarea>s—are styled with the .form-control class. -->
@@ -87,11 +61,30 @@
  
  
         <form>
+
+
+    <div class="container col-md-10 col-sm-12 bg-light p-3 my-sm-2 my-md-2">
+      <div class="row text-success w-100 bg-light p-2 my-lg-2 text-left">
+        <h1 class="display-4 col-md-5 col-sm-12">Contact</h1>
+      </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+    </div>
     <div class="form-group">
       <label for="exampleFormControlInput1">Email address</label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
+
     <div class="form-group">
+      <label for="exampleFormControlMessage">Message</label>
+      <textarea class="form-control" id="exampleFormControlMessage" rows="5"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg ">Submit</button>
+  </div>
+
+  <!-- Additional Forms -->
+    <!-- <div class="form-group">
       <label for="exampleFormControlSelect1">Example select</label>
       <select class="form-control" id="exampleFormControlSelect1">
         <option>1</option>
@@ -100,8 +93,8 @@
         <option>4</option>
         <option>5</option>
       </select>
-    </div>
-    <div class="form-group">
+    </div> -->
+    <!-- <div class="form-group">
       <label for="exampleFormControlSelect2">Example multiple select</label>
       <select multiple class="form-control" id="exampleFormControlSelect2">
         <option>1</option>
@@ -110,11 +103,10 @@
         <option>4</option>
         <option>5</option>
       </select>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+    </div> -->
+
+
+
   </form> 
 
 
