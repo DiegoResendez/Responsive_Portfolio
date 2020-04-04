@@ -1,2 +1,10 @@
 # Responsive_Portfolio
-Homework_Assignment_2
+Using Bootstrap; this project is a development of my portfolio site with the following items:
+A navbar
+A responsive layout
+Responsive images
+
+
+
+
+
