@@ -5,6 +5,8 @@ A responsive layout
 Responsive images
 
 
+Portfolio was built from scratch using https://getbootstrap.com/
+
 
 
 
