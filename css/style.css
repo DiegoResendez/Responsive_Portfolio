@@ -17,9 +17,16 @@ h1, h4, .nav-link, .form-group {
     color: darkred;
 }
 
-.nav-item, .aboutMeText {
+.nav-item, .aboutMeText, .content, .secondaryHeader, .nameHeader, 
+.summaryContent {
     color: ghostwhite;
 }
+
+/* #name, #contactInfo, .resumeText {
+    color: ghostwhite;
+} */
+
+
 .card {
     display: center;
     background-color: rgb(10, 10, 10);
