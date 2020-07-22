@@ -17,8 +17,8 @@ h1, h4, .nav-link, .form-group {
     color: darkred;
 }
 
-.nav-item, .aboutMeText, .content, .secondaryHeader, .nameHeader, 
-.summaryContent {
+.nav-item, .aboutMeText, .content, .contactInfo, 
+.nameHeader, .homeAddress, .resumeContent, .summaryContent {
     color: ghostwhite;
 }
 
@@ -26,6 +26,10 @@ h1, h4, .nav-link, .form-group {
     color: ghostwhite;
 } */
 
+.aboutMeText, .content, .resumeContent {
+    display: block;
+    text-align: justify;
+}
 
 .card {
     display: center;
