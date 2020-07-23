@@ -17,16 +17,20 @@ h1, h4, .nav-link, .form-group {
     color: darkred;
 }
 
-.nav-item, .aboutMeText, .content, .contactInfo, 
-.nameHeader, .homeAddress, .resumeContent, .summaryContent {
+.nav-item, .aboutMeText, .text {
     color: ghostwhite;
 }
 
-/* #name, #contactInfo, .resumeText {
+#aboutMeText, #content, #contactInfo, 
+#nameHeader, #homeAddress, 
+#summaryContent, #mainHeader, #resumeText,
+#listOfQualifications, #experienceHeader,
+#amazon, #responsibilitiesInclude
+{
     color: ghostwhite;
-} */
+}
 
-.aboutMeText, .content, .resumeContent {
+.aboutMeText, .content {
     display: block;
     text-align: justify;
 }
